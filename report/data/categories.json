@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: 输入用户名长度没有限制",
+      "children" : [ {
+        "name" : "test_user_too_long",
+        "uid" : "cc9efb1c91bef3a8",
+        "parentUid" : "d907d7d0dbb260b2b8570e93d95529e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546065075042,
+          "stop" : 1546065077727,
+          "duration" : 2685
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d907d7d0dbb260b2b8570e93d95529e4"
+    }, {
+      "name" : "Failed: 登陆超时",
+      "children" : [ {
+        "name" : "test_login_succ_speed",
+        "uid" : "f6b227cddd84a875",
+        "parentUid" : "28a32cff895e2a80d959dafabcc2c627",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546065158901,
+          "stop" : 1546065194054,
+          "duration" : 35153
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28a32cff895e2a80d959dafabcc2c627"
+    }, {
+      "name" : "AssertionError: assert False == True",
+      "children" : [ {
+        "name" : "test_cookie_httponly",
+        "uid" : "1a316698db8a6355",
+        "parentUid" : "c026868ff44bedf09f7ccc31efb4d74b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546065198432,
+          "stop" : 1546065204685,
+          "duration" : 6253
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c026868ff44bedf09f7ccc31efb4d74b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

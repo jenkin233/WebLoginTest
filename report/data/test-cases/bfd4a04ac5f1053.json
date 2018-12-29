@@ -1,0 +1,164 @@
+{
+  "uid" : "bfd4a04ac5f1053",
+  "name" : "test_box_allignment",
+  "fullName" : "test_Web.TestLogin#test_box_allignment",
+  "historyId" : "2093061dc50195e89af3d0687d58cead",
+  "time" : {
+    "start" : 1546065144537,
+    "stop" : 1546065147599,
+    "duration" : 3062
+  },
+  "description" : "测试textbox和按钮是否对齐",
+  "descriptionHtml" : "<p>测试textbox和按钮是否对齐</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1546065142400,
+      "stop" : 1546065144537,
+      "duration" : 2137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "测试textbox和按钮是否对齐",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化浏览器driver",
+      "time" : {
+        "start" : 1546065144537,
+        "stop" : 1546065144537,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "打开登陆界面，获得所有元素坐标",
+      "time" : {
+        "start" : 1546065144537,
+        "stop" : 1546065147599,
+        "duration" : 3062
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断所有元素对齐",
+      "time" : {
+        "start" : 1546065147599,
+        "stop" : 1546065147599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "54b57a2b84df1a50",
+      "name" : "log",
+      "source" : "54b57a2b84df1a50.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c201e5856ab9ef3c",
+      "name" : "stdout",
+      "source" : "c201e5856ab9ef3c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "abe5ca92ac950fa0",
+      "name" : "stderr",
+      "source" : "abe5ca92ac950fa0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fin",
+    "time" : {
+      "start" : 1546065147599,
+      "stop" : 1546065149866,
+      "duration" : 2267
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "界面测试"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_Web"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PHP6BA5"
+  }, {
+    "name" : "thread",
+    "value" : "4088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfd4a04ac5f1053.json",
+  "parameterValues" : [ ]
+}

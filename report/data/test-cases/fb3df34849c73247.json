@@ -1,0 +1,239 @@
+{
+  "uid" : "fb3df34849c73247",
+  "name" : "test_login_emptycheck",
+  "fullName" : "test_Web.TestLogin#test_login_emptycheck",
+  "historyId" : "8004f569080a4f697054028e5603ddb5",
+  "time" : {
+    "start" : 1546065027092,
+    "stop" : 1546065031305,
+    "duration" : 4213
+  },
+  "description" : "非空检查",
+  "descriptionHtml" : "<p>非空检查</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1546065025007,
+      "stop" : 1546065027092,
+      "duration" : 2085
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "非空检查",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化浏览器driver",
+      "time" : {
+        "start" : 1546065027092,
+        "stop" : 1546065027092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "打开登陆界面",
+      "time" : {
+        "start" : 1546065027092,
+        "stop" : 1546065030878,
+        "duration" : 3786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "什么都不输入,点击登录",
+      "time" : {
+        "start" : 1546065030878,
+        "stop" : 1546065030940,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "界面提示输入用户名",
+      "time" : {
+        "start" : 1546065030940,
+        "stop" : 1546065030940,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "只输入用户名,点击登录",
+      "time" : {
+        "start" : 1546065030940,
+        "stop" : 1546065031170,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "界面提示输入密码",
+      "time" : {
+        "start" : 1546065031170,
+        "stop" : 1546065031170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "只输入密码,点击登录",
+      "time" : {
+        "start" : 1546065031170,
+        "stop" : 1546065031305,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "界面提示输入用户名",
+      "time" : {
+        "start" : 1546065031305,
+        "stop" : 1546065031305,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "81facf2b8fdbfd25",
+      "name" : "log",
+      "source" : "81facf2b8fdbfd25.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "38521e8b1965f976",
+      "name" : "stdout",
+      "source" : "38521e8b1965f976.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "feb7179cb5cad3c",
+      "name" : "stderr",
+      "source" : "feb7179cb5cad3c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fin",
+    "time" : {
+      "start" : 1546065031306,
+      "stop" : 1546065033564,
+      "duration" : 2258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_Web"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PHP6BA5"
+  }, {
+    "name" : "thread",
+    "value" : "4088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb3df34849c73247.json",
+  "parameterValues" : [ ]
+}

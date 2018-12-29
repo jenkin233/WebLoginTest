@@ -1,0 +1,164 @@
+{
+  "uid" : "b1b278a6261cb0a0",
+  "name" : "test_xss",
+  "fullName" : "test_Web.TestLogin#test_xss",
+  "historyId" : "24d39cb747baef422ee4869b4e15b03c",
+  "time" : {
+    "start" : 1546065230550,
+    "stop" : 1546065237461,
+    "duration" : 6911
+  },
+  "description" : "xss攻击",
+  "descriptionHtml" : "<p>xss攻击</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1546065228393,
+      "stop" : 1546065230550,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "xss攻击",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化浏览器driver",
+      "time" : {
+        "start" : 1546065230550,
+        "stop" : 1546065230550,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "打开登录界面,输入脚本语句",
+      "time" : {
+        "start" : 1546065230550,
+        "stop" : 1546065236441,
+        "duration" : 5891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "脚本不会被执行",
+      "time" : {
+        "start" : 1546065236441,
+        "stop" : 1546065237461,
+        "duration" : 1020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d79b19b1f310cb86",
+      "name" : "log",
+      "source" : "d79b19b1f310cb86.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "962548f87e6ad485",
+      "name" : "stdout",
+      "source" : "962548f87e6ad485.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "505d94e49f1a21e",
+      "name" : "stderr",
+      "source" : "505d94e49f1a21e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fin",
+    "time" : {
+      "start" : 1546065237461,
+      "stop" : 1546065239762,
+      "duration" : 2301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "安全性测试"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_Web"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PHP6BA5"
+  }, {
+    "name" : "thread",
+    "value" : "4088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1b278a6261cb0a0.json",
+  "parameterValues" : [ ]
+}

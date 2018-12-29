@@ -1,0 +1,189 @@
+{
+  "uid" : "f6b227cddd84a875",
+  "name" : "test_login_succ_speed",
+  "fullName" : "test_Web.TestLogin#test_login_succ_speed",
+  "historyId" : "42964396116c991e8b1fa298273355d2",
+  "time" : {
+    "start" : 1546065158901,
+    "stop" : 1546065194054,
+    "duration" : 35153
+  },
+  "description" : "登陆速度测试",
+  "descriptionHtml" : "<p>登陆速度测试</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Failed: 登陆超时",
+  "statusTrace" : "self = <test_Web.TestLogin object at 0x00000224A8DBC208>\nget_driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"39d6d5a2cc7f829ae8420be14ce24713\")>\n\n    @allure.story('性能测试')\n    def test_login_succ_speed(self,get_driver):\n    \t'''登陆速度测试'''\n    \tprint (\"测试登录速度...\")\n    \twith allure.step('初始化浏览器driver'):\n    \t\tlogin_page = LoginPage(get_driver)\n    \twith allure.step('打开登录界面'):\n    \t\tlogin_page.open_login()\n    \twith allure.step('输入正确的用户名,密码,开始计时'):\n    \t\tlogin_page.input_user_pwd(self.user,self.correct_pwd)\n    \t\tstart = time.clock()\n    \t\tlogin_page.login_submit(False)\n    \twith allure.step('检测是否在5s内完成'):\n    \t\t# 等待主界面加载\n    \t\tlogin_page.driver.find_element_by_id(\"mainFrameContainer\")\n    \t\tif time.clock()-start > 5:\n>   \t\t\tpytest.fail(\"登陆超时\")\nE      Failed: 登陆超时\n\ntest_Web.py:258: Failed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1546065156815,
+      "stop" : 1546065158900,
+      "duration" : 2085
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "登陆速度测试",
+    "status" : "failed",
+    "statusMessage" : "Failed: 登陆超时",
+    "statusTrace" : "self = <test_Web.TestLogin object at 0x00000224A8DBC208>\nget_driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"39d6d5a2cc7f829ae8420be14ce24713\")>\n\n    @allure.story('性能测试')\n    def test_login_succ_speed(self,get_driver):\n    \t'''登陆速度测试'''\n    \tprint (\"测试登录速度...\")\n    \twith allure.step('初始化浏览器driver'):\n    \t\tlogin_page = LoginPage(get_driver)\n    \twith allure.step('打开登录界面'):\n    \t\tlogin_page.open_login()\n    \twith allure.step('输入正确的用户名,密码,开始计时'):\n    \t\tlogin_page.input_user_pwd(self.user,self.correct_pwd)\n    \t\tstart = time.clock()\n    \t\tlogin_page.login_submit(False)\n    \twith allure.step('检测是否在5s内完成'):\n    \t\t# 等待主界面加载\n    \t\tlogin_page.driver.find_element_by_id(\"mainFrameContainer\")\n    \t\tif time.clock()-start > 5:\n>   \t\t\tpytest.fail(\"登陆超时\")\nE      Failed: 登陆超时\n\ntest_Web.py:258: Failed",
+    "steps" : [ {
+      "name" : "初始化浏览器driver",
+      "time" : {
+        "start" : 1546065158901,
+        "stop" : 1546065158901,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "打开登录界面",
+      "time" : {
+        "start" : 1546065158901,
+        "stop" : 1546065161282,
+        "duration" : 2381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入正确的用户名,密码,开始计时",
+      "time" : {
+        "start" : 1546065161282,
+        "stop" : 1546065161598,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "检测是否在5s内完成",
+      "time" : {
+        "start" : 1546065161598,
+        "stop" : 1546065194053,
+        "duration" : 32455
+      },
+      "status" : "failed",
+      "statusMessage" : "Failed: 登陆超时\n",
+      "statusTrace" : "  File \"C:\\Users\\lzsun\\Desktop\\work\\test_Web.py\", line 258, in test_login_succ_speed\n    pytest.fail(\"登陆超时\")\n  File \"C:\\Python36\\lib\\site-packages\\_pytest\\outcomes.py\", line 113, in fail\n    raise Failed(msg=msg, pytrace=pytrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "33263cdc219fc0a8",
+      "name" : "log",
+      "source" : "33263cdc219fc0a8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b7a3b0dfa21751ef",
+      "name" : "stdout",
+      "source" : "b7a3b0dfa21751ef.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "577c844f0013f4cc",
+      "name" : "stderr",
+      "source" : "577c844f0013f4cc.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fin",
+    "time" : {
+      "start" : 1546065194071,
+      "stop" : 1546065196333,
+      "duration" : 2262
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "性能测试"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_Web"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PHP6BA5"
+  }, {
+    "name" : "thread",
+    "value" : "4088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f6b227cddd84a875.json",
+  "parameterValues" : [ ]
+}
