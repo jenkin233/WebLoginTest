@@ -6,6 +6,8 @@
 * web自动化测试框架 selenium 3.141.0
 * 使用chrome的webDriver ChromeDriver 2.45
 * 开源report框架 allure 2.7.0
+## 测试对象
+QQ邮箱登录界面 https://mail.qq.com
 ## 测试流程
 执行test_Web.py中的主函数，pytest会自动开始对于所有测试用例的测试。
 ## 测试结果
